@@ -1,0 +1,35 @@
+{
+  "name": "Fathe Education & Immigration Services",
+  "short_name": "Fateh Consultants",
+  "theme_color": "#ffffff",
+  "background_color": "#ef4444",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "1024x768",
+      "form_factor": "wide"
+    }
+  ]
+}
