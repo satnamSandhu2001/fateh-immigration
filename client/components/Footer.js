@@ -212,8 +212,8 @@ const Footer = () => {
       <div className="bg-white mt-10 border-t border-white/30 py-3">
         <p className="text-xs md:text-base text-center text-black font-medium">
           Designed & Developed by{' '}
-          <a href="https://www.digitalpeakers.com" target="_blank">
-            @Digital Peakers
+          <a href="https://www.satnamsandhu.com" target="_blank">
+            @Satnam Sandhu
           </a>{' '}
           - 2023
         </p>
