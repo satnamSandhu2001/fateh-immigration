@@ -13,9 +13,10 @@ export default function handler(req, res) {
         secure: true,
       });
       const mailData = {
-        from: req.body.email,
+        from: process.env.SMTP_USER,
         to: 'fatehconsultants@outlook.com',
         subject: 'fatehconsultants.com - Enquiry',
+        text: 'Hello. This email is for your website enquiry form.',
         html: `<div> <h3>Name : ${req.body.name}</h3><br> <h3>Email : ${req.body.email}</h3><br><h3>Contact : ${req.body.phone}</h3><br><h3>Subject : ${req.body.subject}</h3><br><h3>Message :  </h3><p>${req.body.message}</p></div>`,
       };
       transporter.sendMail(mailData, function (err, info) {
